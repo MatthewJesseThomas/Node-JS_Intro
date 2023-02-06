@@ -1,1 +1,19 @@
-{}
+{
+  "name": "intro",
+  "version": "1.0.0",
+  "description": "Nodejs-CrashCourse",
+  "main": "main.js",
+  "scripts": {
+    "test": "testBuggy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewJesseThomas/Node-JS_Intro.git"
+  },
+  "author": "Matthew Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewJesseThomas/Node-JS_Intro/issues"
+  },
+  "homepage": "https://github.com/MatthewJesseThomas/Node-JS_Intro#readme"
+}
