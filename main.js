@@ -1,8 +1,20 @@
-const agent = require('./data.js');
-console.log(agent.firstName + ' | ' + agent.lastName + ' | ' + agent.codeName + ' | ' + `${'Agent Status: '}` + agent.agentStatus)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// const agent = require('./data.js');
+// console.log(agent.firstName + ' | ' + agent.lastName + ' | ' + agent.codeName + ' | ' + `${'Agent Status: '}` + agent.agentStatus)
 // const companyMsg = require('./message.js');
 
 // console.log(companyMsg);
@@ -11,6 +23,7 @@ console.log(agent.firstName + ' | ' + agent.lastName + ' | ' + agent.codeName + 
 // myLogMod.info('Node.js started');
 // myLogMod.warning('Node.js has parse 884-LabelModule');
 // myLogMod.error('Node.js has unsuccessfully loaded with Error7720');
+// ==========================================
 // let events = require('events');
 // let util = require('util');
 
@@ -34,13 +47,7 @@ console.log(agent.firstName + ' | ' + agent.lastName + ' | ' + agent.codeName + 
 
 // James.emit('speak', 'Hey Agents');
 
-
-
-
-
-
-
-
+// ========================================
 // Node Event Emitter
 // let events = require('events');
 
