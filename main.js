@@ -1,3 +1,12 @@
+// Non Blocking Code Example
+const fs = require("fs");
+
+fs.readFile('lorem.txt', function (err, data) {
+   if (err) return console.error(err);
+   console.log(data.toString());
+});
+
+console.log("Secumdis Avernos");
 
 
 
@@ -6,13 +15,16 @@
 
 
 
+// Blocking Code Example
+/* =======================
+Runs sync code
+========================= */
+// const fs = require("fs");
+// const myData = fs.readFileSync('lorem.txt');
 
-
-
-
-
-
-
+// console.log(myData.toString());
+// console.log("Blessed Be Man and The Lords Will Deus Lo Vult...");
+// =============================================
 // const agent = require('./data.js');
 // console.log(agent.firstName + ' | ' + agent.lastName + ' | ' + agent.codeName + ' | ' + `${'Agent Status: '}` + agent.agentStatus)
 // const companyMsg = require('./message.js');
