@@ -1,11 +1,11 @@
-const companyMsg = require('./message.js');
-
-console.log(companyMsg);
-
+const agent = require('./data.js');
+console.log(agent.firstName + ' | ' + agent.lastName + ' | ' + agent.codeName + ' | ' + `${'Agent Status: '}` + agent.agentStatus)
 
 
 
+// const companyMsg = require('./message.js');
 
+// console.log(companyMsg);
 // let myLogMod = require('./log.js');
 
 // myLogMod.info('Node.js started');
