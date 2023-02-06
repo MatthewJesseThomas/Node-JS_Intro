@@ -27,10 +27,11 @@
 
 
 
-
-// console.log(__dirname);
-// console.log(__filename);
-// const counter = function(arr){
+// Module Expression
+// let counter = function(arr){
 //     return 'There are ' + arr.length + ' elements in this Array';
 // };
-// console.log(counter(['Draco', 'Piaty', 'Zeldris', 'Momonga']));
+
+// module.exports = counter;
+// console.log(__dirname);
+// console.log(__filename);
