@@ -1,20 +1,53 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =============================================
+// Synchronously
+// const fs = require('fs');
+
+// const data = fs.readFileSync('lorem.txt', 'utf8');
+
+// console.log(data);
+// =======================
+// const fs = require('fs');
+
+// fs.readFile('lorem.txt', function(err, data) {
+//    if(err)
+//       throw err;
+//       console.log(data);
+// });
+// =====================================
 // Non Blocking Code Example
-const fs = require("fs");
+// const fs = require("fs");
 
-fs.readFile('lorem.txt', function (err, data) {
-   if (err) return console.error(err);
-   console.log(data.toString());
-});
+// fs.readFile('lorem.txt', function (err, data) {
+//    if (err) return console.error(err);
+//    console.log(data.toString());
+// });
 
-console.log("Secumdis Avernos");
-
-
-
-
-
-
-
-
+// console.log("Secumdis Avernos");
 // Blocking Code Example
 /* =======================
 Runs sync code
