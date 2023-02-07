@@ -11,18 +11,25 @@
 
 
 
+// Append Content to A File
+// const fs = require('fs');
 
+// fs.appendFile('lorem.txt', 'Deux Lo Vult!', function (err) { 
+//                         if (err)
+//         console.log(err);
+//                         else
+//         console.log('Append operation complete. Remote Access Trojan Embedded.');
+// });
+// ============================================
+// Creating & Writing a File
+// const fs = require('fs');
 
-
-
-
-
-
-
-
-
-
-
+// fs.writeFile('lorem.txt', 'Deus Lo Vult', function (err) { 
+//     if (err)
+//         console.log(err);
+//     else
+//         console.log('Write operation complete. Virus Launched!!!');
+// });
 // =============================================
 // Synchronously
 // const fs = require('fs');
